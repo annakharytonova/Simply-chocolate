@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.css"
+      integrity="sha512-0P3tMnVtKaEEr+1uLJ8mk1dNNiZXbr79NYG0ubGSmvleZNmunc1sVTp6w8g7BXEuYSuoX9qN9NTihxEXb7VlpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,33 +25,39 @@
   <body>
     <!-- #region header -->
     <header>
-      <nav class="header-nav">
+      <div class="container header-container">
         <a class="header-link-logo" href="./index.html">SIMPLY CHOCOLATE</a>
-        <ul class="header-nav-list">
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Home</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href>How it’s made?</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link" href="">Chocolate is loved</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Home</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href>How it’s made?</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- #endregion header -->
     <!-- #region main -->
     <main>
       <!-- #region hero -->
       <section class="hero">
-        <h1 class="hero-title">
-          Treat yourself or a loved one to our finest ingredients for a moment
-          of pure delight!
-        </h1>
-        <button class="hero-bnt">Buy now</button>
-        <button class="hero-bnt">How it’s made</button>
-        <p class="hero-text">scroll down</p>
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="cont-btn">
+            <button class="hero-bnt">Buy now</button>
+            <a class="hero-link" href="#">How it’s made</a>
+            <a class="down-link" href="#footer">scroll down</a>
+          </div>
+        </div>
       </section>
       <!-- #endregion hero -->
       <!-- #region benefits -->
