@@ -110,6 +110,8 @@ header
 /* ========================================================================================================================================================
 HERO
 ======================================================================================================================================================== */
+/* #region hero */
+
 .hero {
   background-color: #1e1823;
   max-width: 1136px;
@@ -184,58 +186,205 @@ HERO
 
 .down-link:hover,
 .down-link:focus {
+  max-width: 1200px;
   color: #fd9222;
 }
+
+/* #endregion hero */
+
 /* ========================================================================================================================================================
 benefits
 ======================================================================================================================================================== */
+/* #region benefits */
+
 .benefits {
+  background-color: #1e1823;
+  margin-bottom: 100px;
+  max-width: 1200px;
 }
 .benefits-list {
+  display: flex;
+  gap: 70px;
 }
 .benefits-item {
+  padding-top: 50px;
+  padding-left: 56px;
+  padding-bottom: 68px;
 }
 .benefits-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 18px;
 }
 .benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
 }
+
+/* #endregion benefits */
+
 /* ========================================================================================================================================================
 ingredients
 ======================================================================================================================================================== */
+/* #region ingredients */
+
 .ingredients {
+  margin-bottom: 100px;
 }
+
+.ingred-first-div {
+  display: block;
+  text-align: center;
+  width: 486px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
 .ingred-title {
+  padding-left: 37.5px;
+  padding-right: 37.5px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }
+
+.span-taste {
+  color: #fd9222;
+}
+
 .ingred-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
 }
+
 .ingred-list {
+  display: flex;
+  gap: 19px;
 }
+
 .ingred-item {
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  width: 270px;
+  height: 270px;
+  background-color: #fff;
 }
+
+.orange {
+  border: none;
+  background-color: #fd9222;
+}
+
+.black {
+  border: none;
+  background-color: #1e1823;
+}
+
 .ingred-image {
+  margin: 28px 32px 36px 32px;
 }
-.ingred-decr {
+
+.ingred-descr {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  padding-left: 32px;
+  padding-bottom: 28px;
 }
+
+.white-text {
+  color: #fff;
+}
+
+/* #endregion ingredients */
+
 /* ========================================================================================================================================================
 how its made
 ======================================================================================================================================================== */
+/* #region made */
+
 .made {
 }
 .made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  margin-bottom: 50px;
+}
+
+.span-made {
+  color: #fd9222;
+}
+
+.made-div-descr {
+  display: flex;
 }
 .made-image {
+  margin-right: 20px;
+}
+
+.made-descr-text {
+  display: flex;
+  flex-direction: column;
 }
 .made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #111;
+  margin-bottom: 28px;
 }
 .made-list {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
 }
 .made-item {
+  width: 425px;
+}
+
+.made-svg {
+  border-radius: 100%;
+  fill: #4c4c4c;
+  stroke-width: 1px;
+  stroke: #eceded;
+  /* padding-right: 5px; */
 }
 .made-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #111;
 }
+
+/* #endregion made */
+
 /* ========================================================================================================================================================
 reviews
 ======================================================================================================================================================== */
+/* #region reviews */
+
 .reviews {
 }
 .reviews-title {
@@ -252,9 +401,14 @@ reviews
 }
 .reviews-btn {
 }
+
+/* #endregion reviews */
+
 /* ========================================================================================================================================================
 footer
 ======================================================================================================================================================== */
+/* #region footer */
+
 .footer-page {
 }
 .footer-text {
@@ -277,3 +431,4 @@ footer
 }
 .footer-nav-link {
 }
+/* #endregion footer */
